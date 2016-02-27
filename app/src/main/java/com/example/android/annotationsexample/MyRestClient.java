@@ -19,4 +19,9 @@ public interface MyRestClient {
     @Accept(MediaType.APPLICATION_JSON)
     List<Employee> getEmployees();
 
+    @Get("/GetEmployeeJSON")
+    @Accept(MediaType.APPLICATION_JSON)
+    List<Employee> getOutEmployees();
+
+
 }
